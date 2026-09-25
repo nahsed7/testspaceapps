@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+NASA-venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Large scientific datasets
+data/**/*.h5
+data/**/*.hdf5
+data/**/*.nc
+data/**/*.tif
+data/**/*.tiff
+data/**/*.zip
+data/**/*.tar
+data/**/*.gz
+
+# Generated results
+results/*
+!results/.gitkeep
+
+# OS
+.DS_Store
